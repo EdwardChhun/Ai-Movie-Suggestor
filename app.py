@@ -40,4 +40,5 @@ def recommend_movies(title, cosine_sim=cosine_sim):
 
 
 # Test the function
-print(recommend_movies("The Dark Knight Rises"))
+user_input = input("Type in your desired movie: ")
+print(recommend_movies(user_input))
